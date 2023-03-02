@@ -1,0 +1,47 @@
+.container {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.result {
+    padding: 12px;
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.error {
+    border: 1px solid #fa1707;
+    color: #fa1707;
+    background-color: #f5bdb9;
+    padding: 10px;
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.loader {
+    border: 12px solid #f3f3f3;
+    border-top: 12px solid rgb(209, 76, 4);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+}
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

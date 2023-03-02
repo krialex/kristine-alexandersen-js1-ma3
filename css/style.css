@@ -1,3 +1,7 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .container {
     max-width: 800px;
     margin: 0px auto;
@@ -5,7 +9,6 @@
 
 h1 {
     font-size: 3rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .result {
@@ -13,12 +16,15 @@ h1 {
     border: 1px solid #dfdfdf;
     border-radius: 10px;
     margin: 10px;
+    max-width: 150px;
+    height: 160px;
 }
 
 .error {
     border: 1px solid #fa1707;
+    border-radius: 10px;
     color: #fa1707;
-    background-color: #f5bdb9;
+    background-color: #fadbd8;
     padding: 10px;
 }
 
